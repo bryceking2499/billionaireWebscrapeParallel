@@ -1,10 +1,5 @@
-# The goal of this app is to provide a sample of what Python Dash is capable of
-
-# Uncomment the following lines if you would like to install additional libraries
-# import pip
-# pip.main(['install',
-#           'dash', 'dash-html-components', 'dash-core-components', 'pandas', 'plotly', 'selenium',
-#           'webdriver_manager', 'joblib'])
+# The goal of this project is to scrape Bloomberg and Wikipedia daily to get analytics on billionaires
+import install_packages
 
 from datetime import date
 from joblib import Parallel, delayed
